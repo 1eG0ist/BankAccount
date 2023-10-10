@@ -15,8 +15,7 @@
                     if (persons.Count == 0)
                     {
                         Console.WriteLine("Now you haven't persons");
-                    }
-                    else
+                    } else
                     {
                         Console.Write($"Now selected person №{selected_person+1} ||| ");
                         for (int i = 0; i < persons.Count; i++)

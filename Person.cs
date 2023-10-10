@@ -50,7 +50,6 @@ namespace BankAccount
                 Console.ReadKey();
                 return;
             }
-
             for (int i = 0; i < persons.Count; i++)
             {
                 if (persons[i].number_of_person == n_of_person)
